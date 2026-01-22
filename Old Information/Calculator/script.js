@@ -8,6 +8,12 @@ function clearDisplay() {
     display.value = ''; 
 }
 
+function undo() {
+    if (display.value.length > 0) {
+        display.value = display.value.slice(0, -1);
+    }
+}
+
 function calculateResult() {
     try {
         display.value = eval(display.value);

@@ -64,3 +64,11 @@ button:first-child {
 button:first-child:hover {
     background-color: #ffb6c1;
 }
+
+button:nth-child(18) { 
+    background-color: #ffeaa7; 
+}
+
+button:nth-child(18):hover {
+    background-color: #ffda79;
+}
